@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(232, 211, 215);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section{
+    height: 500px;
+    width: 600px;
+   
+}
+.col{
+    background-color: white;
+    width: 100%;
+    border-radius: 4px; 
+    padding: 5px;
+    box-shadow: 0px 5px 15px gray;
+}
+.box{
+   display: inline-block !important;
+   padding: 0 5px;
+}
+.first{
+    border-right: 2px solid rgb(211, 208, 208);
+}
+input[type=number]{
+    outline: none;
+    border: none;
+    width: 50px;
+    color: black;
+    font-size: 24px;
+    padding: 10px 0px ;
+    margin-left: 10px;
+}
+.second{
+    border-right: 2px solid rgb(218, 214, 214) ;
+}
+button{
+    border: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+    background: transparent;
+    padding: 10px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    user-select: none;
+}
+button:hover{
+    background: rgb(217, 210, 210);
+}
+button:active{
+    background: rgb(221, 155, 155);
+    color: rgb(220, 230, 230);
+}
+.third{
+    border-right: 2px solid rgb(221, 217, 217) ;
+
+}
+.third button:focus{
+    background: rgb(221, 155, 155);
+    color: rgb(220, 230, 230);
+}
+input[type=color]{
+    color: blue;
+    width: 35px;
+    outline: none;
+    border: none;
+    background: none;
+}
+textarea{
+   width: 100%;
+   height: 350px;
+   padding: 10px;
+   border-radius: 3px;
+   outline: none;
+   border: none;
+   resize: vertical;
+}
